@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mathematics</string>
+
+
+
+    <string name="first_editTextView">Enter First Number</string>
+    <string name="second_editTextView">Enter Second Number</string>
+    <string name="add_btn">Add</string>
+    <string name="display_textView">Result</string>
+</resources>

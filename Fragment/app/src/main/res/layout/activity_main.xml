@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Fragment Demo"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/BtnPenguin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penguin" />
+
+    <Button
+        android:id="@+id/BtnRabbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rabbit" />
+
+    <!--<fragment--><!--android:id="@+id/fragment"--><!--android:name="com.layyan.fragment.FragmentLinkXML"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="100dp"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toTopOf="parent"--><!--tools:layout="@layout/fragment_fragment_link" />-->
+    <FrameLayout
+        android:id="@+id/FragOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MultipleActivitiesAndLayout</string>
+
+    <string name="main_title">Home Menu</string>
+    <string name="subtitle">using Linear Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="grid_layout">Grid Layout</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="rl_description">Relative Layout utilizes the relationship with each other and parents to define the view\'s person position.</string>
+    <string name="cl_description">Constraint Layout needs at least ONE horizontal and ONE vertical constraints to define the views within it.</string>
+    <string name="gl_description">Grid Layout arranges the views in distributed rows and columns manner.</string>
+    <string name="relative_main_title">This is a Relative Layout Page</string>
+
+    <string name="relative_text1">Text View #1</string>
+    <string name="relative_text2">Text View #2</string>
+    <string name="relative_text3">Text View #3</string>
+    <string name="relative_name_tag">Enter your name:</string>
+    <string name="back_to_home">Back to home</string>
+
+    <string name="constraint_to_home">Home</string>
+
+    <string name="clear">C</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">X</string>
+    <string name="divide">/</string>
+    <string name="Del">Del</string>
+    <string name="dot">.</string>
+    <string name="equal">=</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="exit">EXIT</string>
+
+</resources>

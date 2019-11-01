@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="HelloLabel">Tan Lay Yan</string>
+    <string name="IntroLabel">Smile :)\nI\'m a final year student from SE department.</string>
+    <string name="ImageDescription">Smile :)</string>
+    <string name="Nickname">(Leanne)</string>
+</resources>

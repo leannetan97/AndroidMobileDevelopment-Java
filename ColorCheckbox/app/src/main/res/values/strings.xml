@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Color Checkbox</string>
+
+    <!--Activities ids-->
+    <string name="first_checkbox">Red</string>
+    <string name="second_checkbox">Green</string>
+    <string name="third_checkbox">Blue</string>
+    <string name="first_btn">Submit</string>
+</resources>
