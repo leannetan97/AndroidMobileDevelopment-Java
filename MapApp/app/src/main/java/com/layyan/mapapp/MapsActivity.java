@@ -206,6 +206,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String hospital = "hospital";
         String school = "school";
         String restaurant = "restaurant";
+        String petrol = "gas_station";
+        String subway = "subway_station";
 
         Object transferData[] = new Object[2];
         GetNearbyPlaces getNearbyPlaces = new GetNearbyPlaces();
@@ -277,6 +279,26 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 getNearbyPlaces.execute(transferData);
                 Toast.makeText(this, "Searching for nearby restaurants...", Toast.LENGTH_SHORT).show();
                 Toast.makeText(this, "Showing nearby restaurants...", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.btn_petrol:
+                mMap.clear();
+                url = getUrl(latitude, longitude, petrol);
+                transferData[0] = mMap;
+                transferData[1] = url;
+
+                getNearbyPlaces.execute(transferData);
+                Toast.makeText(this, "Searching for nearby petrol station...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Showing nearby petrol station...", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.btn_subway:
+                mMap.clear();
+                url = getUrl(latitude, longitude, subway);
+                transferData[0] = mMap;
+                transferData[1] = url;
+
+                getNearbyPlaces.execute(transferData);
+                Toast.makeText(this, "Searching for nearby subway station...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Showing nearby subway station...", Toast.LENGTH_SHORT).show();
                 break;
         }
     }

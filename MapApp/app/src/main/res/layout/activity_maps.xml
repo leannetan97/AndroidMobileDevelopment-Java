@@ -60,18 +60,32 @@
         app:layout_constraintTop_toBottomOf="@+id/CL_SB" />
 
     <ImageButton
+        android:id="@+id/btn_petrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="onClick"
+        android:padding="24dp"
+        android:src="@drawable/petrol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_hospital"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933" />
+
+    <ImageButton
         android:id="@+id/btn_hospital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="onClick"
         android:padding="24dp"
         android:src="@drawable/hospital"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_school"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.933"
-        android:onClick="onClick"
-        android:backgroundTint="@color/colorAccent"/>
+        app:layout_constraintVertical_bias="0.933" />
 
     <ImageButton
         android:id="@+id/btn_school"
@@ -92,15 +106,27 @@
         android:id="@+id/btn_restaurant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorDiningOrange"
+        android:onClick="onClick"
         android:padding="24dp"
         android:src="@drawable/restaurant"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_school"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.933"
+        app:layout_constraintVertical_bias="0.933" />
+
+    <ImageButton
+        android:id="@+id/btn_subway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorDiningOrange"
         android:onClick="onClick"
-        android:backgroundTint="@color/colorDiningOrange"/>
-
-
+        android:padding="24dp"
+        android:src="@drawable/subway"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_restaurant"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933" />
 </androidx.constraintlayout.widget.ConstraintLayout>
