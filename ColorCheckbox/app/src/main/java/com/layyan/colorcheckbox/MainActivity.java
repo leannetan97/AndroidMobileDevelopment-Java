@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             layoutMain.setBackgroundColor(getResources().getColor(colour));
         }else{
             layoutMain.setBackgroundColor(getResources().getColor(colour));
+
         }
     }
 
@@ -74,5 +75,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Toast.makeText(getApplicationContext(),displayText_1 + displayText_2,Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this,displayText_1 + displayText_2,Toast.LENGTH_SHORT).show();
     }
 }
